@@ -6,11 +6,19 @@
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "firstName": {
       "type": "string",
       "required": true
     },
-    "city": {
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "userName": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
       "type": "string",
       "required": true
     }
@@ -18,12 +26,7 @@
   "validations": [],
   "relations": {},
   "acls": [
-    {
-      "accessType": "WRITE",
-      "principalType": "ROLE",
-      "principalId": "$unauthenticated",
-      "permission": "DENY"
-    }
+    {}
   ],
   "methods": {}
 }

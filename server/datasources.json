@@ -1,8 +1,4 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
   "mongodb": {
     "url": "mongodb://admin:password1@ds141889.mlab.com:41889/2020i",
     "name": "mongodb",
