@@ -22,7 +22,7 @@
   },
   "ACL": {
     "dataSource": "mongodb",
-    "public": false
+    "public": true
   },
   "RoleMapping": {
     "dataSource": "mongodb",
@@ -36,6 +36,14 @@
     "public": false
   },
   "accounts": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "wuser": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "wser": {
     "dataSource": "mongodb",
     "public": true
   }
